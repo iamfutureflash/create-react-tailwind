@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Card from "./Card";
+import Heading from "./_heading/Heading";
+import CardData from "./data/CardData";
 
+function ncard(val) {
+
+
+}
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Heading />
+      <div className="flex justify-start flex-wrap bg-blue-500 p-4 md:flex-row">
+        {CardData.map(
+          function ncard(val){
+            return (
+              <Card
+                link={val.link}
+                subHeading={val.subHeading}
+                name={val.name}
+                buttonText={val.buttonText}
+              />
+            );
+          }
+        )}
+      </div>
+    </>
   );
 }
 
