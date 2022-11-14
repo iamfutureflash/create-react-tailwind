@@ -1,8 +1,8 @@
 import React from 'react';
-import ChangeBgOnClick from './onClickChangeBg/ChangeBgOnClick';
-const App = () =>{
-return(
-<ChangeBgOnClick/>
-);
+import LoginForm from './loginForm/LoginForm';
+const App = () => {
+    return (
+        <LoginForm />
+    );
 }
 export default App;
