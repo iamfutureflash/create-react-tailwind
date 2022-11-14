@@ -1,8 +1,8 @@
 import React from 'react';
-import Images from "./card_components/Images"
-import SubHeading from "./card_components/SubHeading"
-import Names from "./card_components/Names"
-import Button from "./card_components/Button"
+import Images from "../card_components/Images"
+import SubHeading from "../card_components/SubHeading"
+import Names from "../card_components/Names"
+import Button from "../card_components/Button"
 function Card(props) {
     return (
         <>
