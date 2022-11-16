@@ -1,10 +1,8 @@
 import React from 'react';
-import ToDoList from './projects/todolist/ToDoList'
-// import Form from "./projects/piyushForm/Form";
+import IncDecAlert from "./projects/inc_dec_alert/IncDecAlert";
 const App = () => {
     return (
-        <ToDoList />
-        // <Form/>
+        <IncDecAlert />
     );
 }
 export default App;
