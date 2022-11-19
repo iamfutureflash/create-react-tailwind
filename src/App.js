@@ -1,8 +1,9 @@
 import React from 'react';
-import IncDecAlert from "./projects/inc_dec_alert/IncDecAlert";
+import Accordian from "./projects/accordian/Accordian";
+
 const App = () => {
     return (
-        <IncDecAlert />
+        <Accordian />
     );
 }
 export default App;
