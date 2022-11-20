@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 export default function GoogleKeep() {
   return (
-    <div className='w-screen h-[94vh] relative' >
+    <div className='w-screen h-[94vh] lg:h-screen relative' >
       <Navbar />
       {/* <div className='mx-2 my-4 px-6 py-4' >
         Duis eu irure est exercitation adipisicing enim ullamco id aliquip amet sit. Amet incididunt sit ad do labore velit reprehenderit aute sunt. Proident ex Lorem reprehenderit proident consectetur deserunt irure commodo Lorem nostrud magna dolore eiusmod. Sint dolor dolore dolor sit laboris nostrud excepteur qui pariatur eiusmod nostrud nostrud laborum. Officia officia commodo mollit mollit cupidatat dolore ullamco.
