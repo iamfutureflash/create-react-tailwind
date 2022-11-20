@@ -1,9 +1,9 @@
 import React from 'react';
-import Accordian from "./projects/accordian/Accordian";
+import GoogleKeep from "./projects/GoogleKeep/GoogleKeep";
 
 const App = () => {
     return (
-        <Accordian />
+        <GoogleKeep />
     );
 }
 export default App;
